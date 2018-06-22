@@ -75,6 +75,11 @@ console.log("I did it! I linked jQuery and this file!");
 	$pet.appendTo($tr);
 	$pet.insertAfter($h3);
 
+	$(".secret").hide("slow").delay(2000).show("slow");
+	$leash.addClass("cabbage");
+
+	$leash.removeClass("cabbage");
+
 
 
 
