@@ -34,6 +34,42 @@ console.log("I did it! I linked jQuery and this file!");
 	const $jellyBeans = $("<li>Bertie Bott's Every Flavor Beans</li>");
 	$storageTrunk.append($butterBeer, $invisibilityCloak, $magicMap, $timeTurner, $leash, $jellyBeans );
 	$container.append($storageTrunk);
+	const $table = $("<table></table>");
+	const $tHead = $("<thead></thead>");
+	const $th1 = $("<th></th>");
+	const $th2 = $("<th></th>");
+	$th1.text("Day");
+	$th2.text("Classes");
+	const $tr = $("<tr></tr>");
+	const $td1 = $("<td>Monday</td>");
+	const $td2 = $("<td>Herbology, Quiditch, History of Magic</td>");
+	const $tr1 = $("<tr></tr>");
+	const $td3 = $("<td>Tuesday</td>");
+	const $td4 = $("<td>Potions. Defense Against the Dark Arts</td>");
+	const $tr2 = $("<tr></tr>");
+	const $td5 = $("<td>Wednesday</td>");
+	const $td6 = $("<td>Quiditch, Herbology, Potions</td>");
+	const $tr3 = $("<tr></tr>");
+	const $td7 = $("<td>Thursday</td>");
+	const $td8 = $("<td>Charms, History of Magic, Potions</td>");
+	const $tr4 = $("<tr></tr>");
+	const $td9 = $("<td>Friday</td>");
+	const $td10 = $("<td>Potions, Defense Against the Dark Arts</td>");
+
+
+	$tr.append($td1, $td2);
+	$tr1.append($td3, $td4);
+	$tr2.append($td5, $td6);
+	$tr3.append($td7, $td8);
+	$tr4.append($td9, $td10);
+
+	$tHead.append($th1, $th2);
+	$table.append($tHead);
+	$table.append($tr, $tr1, $tr2, $tr3, $tr4);
+	
+
+	$container.append($table);
+
 
 
  

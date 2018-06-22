@@ -14,3 +14,16 @@ body {
 ul {
 	list-style-type: none;
 }
+
+table {
+	border: 1px solid black;
+	margin: auto;
+}
+
+th {
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid black;
+}
