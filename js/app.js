@@ -69,6 +69,13 @@ console.log("I did it! I linked jQuery and this file!");
 	
 
 	$container.append($table);
+	$butterBeer.remove();
+
+	$wand.css("color", "indigo");
+	$pet.appendTo($tr);
+	$pet.insertAfter($h3);
+
+
 
 
 
